@@ -1,9 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sarbari</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #444;
+            color: #fff;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 60px 20px;
+            margin-top: 50px;
+        }
+        .about {
+            background: #f4f4f4;
+        }
+        .projects {
+            background: #ddd;
+        }
+        .contact {
+            background: #f4f4f4;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: relative;
+        }
+    </style>
 </head>
 <body>
-    Sarbari
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my personal portfolio website!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Write a little about yourself</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><strong>Project 1:</strong> Description of project 1.</li>
+            <li><strong>Project 2:</strong> Description of project 2.</li>
+            <li><strong>Project 3:</strong> Description of project 3.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out through the following:</p>
+        <ul>
+            <li>Email: <a href="mailto:mail@sarbariroy.com">mail@sarbariroy.com</a></li>
+            <li>Phone: (123) 456-7890</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/sarbari-roy-78a65821/" target="_blank">linkedin.com/in/sarbari-roy-78a65821</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sarbari Roy. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
